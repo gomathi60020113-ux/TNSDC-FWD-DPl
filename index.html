@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>WebRise 2026 – Front-End Basics Workshop</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>WebRise 2026 – Front-End Basics Workshop</h1>
+
+<p>
+Join the WebRise 2026 Workshop to learn the fundamentals of front-end web development.
+Participants will gain hands-on experience creating structured web pages using HTML.
+</p>
+
+<h2>Event Information</h2>
+
+<p><b>Date:</b> 15 March 2026</p>
+<p><b>Time:</b> 9:30 AM – 3:30 PM</p>
+<p><b>Venue:</b> Main Auditorium</p>
+<p><b>Organizer:</b> Department of Computer Application</p>
+
+<h2>Registration Form</h2>
+
+<form id="regForm">
+
+<table border="1">
+
+<tr>
+<td>Full Name</td>
+<td><input type="text" name="fullname" required></td>
+</tr>
+
+<tr>
+<td>Email</td>
+<td><input type="email" name="email" required></td>
+</tr>
+
+<tr>
+<td>Mobile No</td>
+<td><input type="tel" name="phone" required></td>
+</tr>
+
+<tr>
+<td>Gender</td>
+<td>
+<input type="radio" name="gender" value="Male">Male
+<input type="radio" name="gender" value="Female">Female
+<input type="radio" name="gender" value="Other">Other
+</td>
+</tr>
+
+<tr>
+<td>ID Proof</td>
+<td>
+<select name="idproof">
+<option>Aadhar Card</option>
+<option>Voter ID</option>
+<option>Driving License</option>
+<option>College ID</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>Workshop Topic</td>
+<td>
+<select name="topic">
+<option>HTML Basics</option>
+<option>Introduction to CSS</option>
+<option>Web Page Structure</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>Mode</td>
+<td>
+<input type="radio" name="mode" value="Online">Online
+<input type="radio" name="mode" value="Offline">Offline
+</td>
+</tr>
+
+<tr>
+<td colspan="2">
+<input type="checkbox" id="confirm" required>
+I confirm that the above details are correct
+</td>
+</tr>
+
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</td>
+</tr>
+
+</table>
+
+</form>
+
+<h3 id="successMsg"></h3>
+
+<h2>Registered Participants</h2>
+
+<table border="1" id="resultTable">
+<tr>
+<th>Name</th>
+<th>Email</th>
+<th>Mobile No</th>
+<th>Event</th>
+<th>Mode</th>
+</tr>
+</table>
+
+<script src="script.js"></script>
+
+<hr>
+
+<p><b>Contact Email:</b> webrise2026@college.edu</p>
+
+<p><b>Help Desk Number:</b> +91 9123456789</p>
+
+<p><b>Support Timings:</b> 9:00 AM – 4:00 PM (Working Days Only)</p>
+
+<p><b>Copyright:</b> © 2026 Department of Computer application,
+MMES Women's Arts and Science College. All Rights Reserved.</p>
+
+</body>
+</html>
